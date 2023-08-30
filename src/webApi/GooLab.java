@@ -18,7 +18,6 @@ public class GooLab {
 
     public static void main(String[] args) {
         GooLab goo = new GooLab();
-        // goo.gooProper("岩本と三匹の横浜の千葉と内閣");
         List<String> response = goo.gooMorpho("1つ");
         for (String str : response) {
             System.out.println(str);
@@ -27,7 +26,7 @@ public class GooLab {
 
     public List<String> gooMorpho(String word) {
         JSONObject json = new JSONObject();
-        json.put("app_id", "87f7eabfcde6b8190b81f24e3b0407f98e3e8e13a6dcb835cb486ef25e41394c");
+        json.put("app_id", "Sampleid");
         json.put("sentence", word);
 
         JsonNode root = null;
@@ -86,7 +85,7 @@ public class GooLab {
         String response = "";
 
         JSONObject json = new JSONObject();
-        json.put("app_id", "87f7eabfcde6b8190b81f24e3b0407f98e3e8e13a6dcb835cb486ef25e41394c");
+        json.put("app_id", "Sampleid");
         json.put("sentence", word);
 
         JsonNode root = null;
