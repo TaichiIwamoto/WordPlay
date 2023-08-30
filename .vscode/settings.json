@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "src"
+    ],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "library/**/*.jar",
+        "c:\\JFX\\jackson-annotations-2.15.2.jar",
+        "c:\\JFX\\jackson-core-2.15.2.jar",
+        "c:\\JFX\\jackson-databind-2.15.2.jar",
+        "c:\\JFX\\json-20230227.jar",
+        "c:\\Users\\81702\\OneDrive - 芝浦工業大学 教研テナント (SIC)\\Java\\jackson-annotations-2.15.2.jar",
+        "c:\\Users\\81702\\OneDrive - 芝浦工業大学 教研テナント (SIC)\\Java\\jackson-core-2.15.2.jar",
+        "c:\\Users\\81702\\OneDrive - 芝浦工業大学 教研テナント (SIC)\\Java\\jackson-databind-2.15.2.jar",
+        "c:\\Users\\81702\\OneDrive - 芝浦工業大学 教研テナント (SIC)\\Java\\json-20230227.jar"
+    ]
+}
